@@ -59,6 +59,13 @@
 		},
 		"git.autoStash": false,
 		"git.fetchOnPull": false,
-		"git.pullTags": true
+		"git.pullTags": true,
+		"workspace.exclude": {
+			"**/.git": true,
+			"**/.svn": true,
+			"**/.hg": true,
+			"**/CVS": true,
+			"**/.DS_Store": true
+		}
 	}
 }
