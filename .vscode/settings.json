@@ -1,0 +1,52 @@
+{
+    "git.alwaysShowStagedChangesResourceGroup": true,
+    "html.autoClosingTags": false,
+    "editor.minimap.enabled": false,
+    "editor.formatOnPaste": true,
+    "editor.fontLigatures": true,
+    "editor.cursorBlinking": "smooth",
+    "files.trimFinalNewlines": true,
+    "[typescript]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[markdown]": {
+        "editor.formatOnSave": true,
+        "editor.wordWrap": "on",
+        "editor.renderWhitespace": "all",
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "editor.cursorSmoothCaretAnimation": true,
+    "editor.hideCursorInOverviewRuler": false,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": false,
+        "strings": false
+    },
+    "editor.renderLineHighlight": "all",
+    "editor.suggest.showFunctions": true,
+    "editor.suggest.showFiles": true,
+    "editor.suggest.showFolders": true,
+    "editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    },
+    "files.insertFinalNewline": false,
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true
+    },
+    "[yaml]": {
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": false
+    },
+    "git.autoStash": false,
+    "git.fetchOnPull": false,
+    "git.pullTags": true
+}
