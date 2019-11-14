@@ -11,7 +11,7 @@ var less		= require('gulp-less'), 			// https://github.com/plus3network/gulp-les
 	reload 		= browserSync.reload;
 
 // Parent folder, you can change it if you have a different folder name
-var parentFolder = 'docs/';
+var parentFolder = 'wiki/';
 
 // Concatenate the scripts in the right order
 var scriptsOrder = [
