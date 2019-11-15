@@ -4,7 +4,7 @@ import './registerServiceWorker'
 import router from './router'
 import store from './store'
 import devtools from '@vue/devtools'
-require('./assets/scss/global.scss')
+require('./assets/scss/style.scss')
 
 import Vuesax from 'vuesax' 
 import 'vuesax/dist/vuesax.css'
