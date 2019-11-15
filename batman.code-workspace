@@ -39,13 +39,7 @@
 		"editor.suggest.showFiles": true,
 		"editor.suggest.showFolders": true,
 		"editor.wordSeparators": "`~!@#$%^&*()-=+[{]}\\|;:'\",.<>/?",
-		"files.exclude": {
-			"**/.git": true,
-			"**/.svn": true,
-			"**/.hg": true,
-			"**/CVS": true,
-			"**/.DS_Store": true
-		},
+		"files.exclude": {},
 		"files.insertFinalNewline": false,
 		"files.watcherExclude": {
 			"**/.git/objects/**": true,

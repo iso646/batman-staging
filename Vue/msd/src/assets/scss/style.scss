@@ -15,14 +15,109 @@ Version: 1.3.7
 /*------------------------------------------------------------------
 [1. Imports]
 */
+
 @import 'colors.scss';
 @import 'menu.scss';
 
+/*------------------------------------------------------------------
+[2. Font]
+*/
+
+@font-face {
+    font-family: 'Point Black Italic';
+    src:url('../fonts/Point/Point\ Black\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Black';
+    src:url('../fonts/Point/Point\ Black.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Bold Italic';
+    src:url('../fonts/Point/Point\ Bold\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Bold';
+    src:url('../fonts/Point/Point\ Bold.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Book Italic';
+    src:url('../fonts/Point/Point\ Book\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Book';
+    src:url('../fonts/Point/Point\ Book.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Extra Bold Italic';
+    src:url('../fonts/Point/Point\ Extra\ Bold\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Extra Bold';
+    src:url('../fonts/Point/Point\ Extra\ Bold.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Extra Light Italic';
+    src:url('../fonts/Point/Point\ Extra\ Light\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Extra Light';
+    src:url('../fonts/Point/Point\ Extra\ Light.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Hairline Italic';
+    src:url('../fonts/Point/Point\ Hairline\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Hairline';
+    src:url('../fonts/Point/Point\ Hairline.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Italic';
+    src:url('../fonts/Point/Point\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Light Italic';
+    src:url('../fonts/Point/Point\ Light\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Light';
+    src:url('../fonts/Point/Point\ Light.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Regular';
+    src:url('../fonts/Point/Point\ Regular.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Semi Bold Italic';
+    src:url('../fonts/Point/Point\ Semi\ Bold\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Semi Bold';
+    src:url('../fonts/Point/Point\ Semi\ Bold.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Thin Italic';
+    src:url('../fonts/Point/Point\ Thin\ Italic.otf')format('opentype');
+}
+@font-face {
+    font-family: 'Point Thin';
+    src:url('../fonts/Point/Point\ Thin.otf')format('opentype');
+}
 
 /*------------------------------------------------------------------
 [2. Global Styles]
 */
 
+html {
+	font-size: 1.1em;
+}
+body {
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: .875rem;
+	font-weight: normal;
+	line-height: 1.75rem;
+	color: #252729;
+}
 .hidden {
     visibility: hidden;
 }
