@@ -48,5 +48,7 @@
     },
     "git.autoStash": false,
     "git.fetchOnPull": false,
-    "git.pullTags": true
+    "git.pullTags": true,
+    "editor.wordWrap": "on",
+    "npm.enableScriptExplorer": true
 }
