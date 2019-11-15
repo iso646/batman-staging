@@ -29,7 +29,9 @@ $background_color_3: #fff;
 	border-radius: 0;
 	background-color: $transparent;
 	pointer-events: all;
-	transition: transform .6s cubic-bezier(.165,.84,.44,1);
+    transition: transform .6s cubic-bezier(.165,.84,.44,1);
+    float: right;
+    margin-right: 3%;
 	&:hover {
 		.burger-bar--2 {
 			transform: scaleX(1);
@@ -88,7 +90,7 @@ $background_color_3: #fff;
 [2. Sidebar Specific]
 */
 $background_color_4: rgba(0,0,0,.5);
-$background_color_5: #130f40;
+$background_color_5: whitesmoke;
 
 .slide-enter-active {
 	transition: transform 0.2s ease;
@@ -97,11 +99,11 @@ $background_color_5: #130f40;
 	transition: transform 0.2s ease;
 }
 .slide-enter {
-	transform: translateX(-100%);
+	transform: translateX(100%);
 	transition: all 150ms ease-in 0s;
 }
 .slide-leave-to {
-	transform: translateX(-100%);
+	transform: translateX(100%);
 	transition: all 150ms ease-in 0s;
 }
 .sidebar-backdrop {
@@ -117,7 +119,7 @@ $background_color_5: #130f40;
 	overflow-y: auto;
 	background-color: $background_color_5;
 	position: fixed;
-	left: 0;
+	right: 0;
 	top: 0;
 	height: 100vh;
 	z-index: 999;
