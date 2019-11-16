@@ -1,8 +1,11 @@
 <template>
-  <div id="app">
+  <div id="app" class="container">
     <nav class="main-nav">
-      <div class="logo">INSIGHT GLOBAL</div>
+      <!-- <div class="logo">INSIGHT GLOBAL</div> -->
       <Burger></Burger>
+      <div class="logo">
+        <img alt="Insight Global" src="./assets/images/ig-logo.png" />
+      </div>
     </nav>
     <Sidebar>
       <div id="nav">
@@ -16,28 +19,26 @@
 </template>
 
 <style lang="scss">
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+// #app {
+//   font-family: 'Avenir', Helvetica, Arial, sans-serif;
+//   -webkit-font-smoothing: antialiased;
+//   -moz-osx-font-smoothing: grayscale;
+//   text-align: center;
+//   color: #2c3e50;
+// }
 
-#nav {
-  padding: 30px;
+// #nav {
+//   padding: 30px;
 
-  a {
-    font-weight: bold;
-    color: #2c3e50;
+//   a {
+//     font-weight: bold;
+//     color: #2c3e50;
 
-    &.router-link-exact-active {
-      color: #42b983;
-    }
-  }
-}
-
-
+//     &.router-link-exact-active {
+//       color: #42b983;
+//     }
+//   }
+// }
 </style>
 
 <script>

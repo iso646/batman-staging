@@ -112,14 +112,25 @@ html {
 	font-size: 1.1em;
 }
 body {
-	font-family: 'Open Sans', Helvetica, sans-serif;
-	font-size: .875rem;
+	font-family: 'Point Regular', sans-serif;
+	font-size: .875em;
 	font-weight: normal;
-	line-height: 1.75rem;
-	color: #252729;
+	line-height: 1.75em;
+    color: $white;
+    background-color: $ig-blue;
+    text-align: center;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3%;
 }
 .hidden {
     visibility: hidden;
+}
+img {
+    margin: 0 auto;
+    text-align: center;
 }
 button {
     cursor: pointer;
