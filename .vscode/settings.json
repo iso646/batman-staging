@@ -50,5 +50,12 @@
     "git.fetchOnPull": false,
     "git.pullTags": true,
     "editor.wordWrap": "on",
-    "npm.enableScriptExplorer": true
+    "npm.enableScriptExplorer": true,
+    "workspace.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true
+    }
 }
